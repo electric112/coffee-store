@@ -6,8 +6,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function ProductDetails() {
-  const { param } = useParams(); // could be id or name
-  let product;
+  const { param } = useParams(); 
+  let product; 
   const [size, setSize] = useState("Small");
   const [quantity, setQuantity] = useState(1);
   if (!isNaN(param)) {

@@ -9,13 +9,6 @@ import Contact from './components/Contact' ;
 
 function App() {
   
-//   const [isLoggedin, setisLoggedIn] = useState(true);
-  
-//   useEffect ( () => 
-//     { alert("isLoggedin state changed")}, [isLoggedin]) ; 
-// if(isLoggedin) { 
-//     return ( 
-//       <> 
 
   return (
     <>
@@ -35,17 +28,5 @@ function App() {
   );
 }
 
-/*<button onClick={() => setisLoggedIn(false)}> Log out </button>
-</>
-);} 
-  else 
-   {
-     return( 
-      <> 
-    <Login/> 
-    
-<button onClick={() => setisLoggedIn(true)}> Log in </button>
-    </>
-   );} */
 
 export default App;
